@@ -55,7 +55,7 @@ You imagine the set of libs as being like this:
                  |                                    |
       +----------+------------+               +-------+--------+
       |          |            |               |       |        |
-   cimGUI*   Ultralight*  NoesisGUI*        FMOD*   Wwise*  OpenAL*
+   cimGUI*   Ultralight*  NoesisGUI*        FMOD*   Wwise*  OpenAL
 
 
                                 Graphics
