@@ -32,9 +32,9 @@ You imagine the set of libs as being like this:
 -----------------------------------------------------------------------
                               Other
                                 |
-                            +---+---+
-                            |       |
-                          Spine*  Tiled
+                       +--------+--------+
+                       |        |        |
+                      KTX*   Spine*    Tiled
 
 
                              Physics
