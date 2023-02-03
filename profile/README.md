@@ -30,11 +30,11 @@ You imagine the set of libs as being like this:
 ```bash
                              Your game
 -----------------------------------------------------------------------
-                              Other
-                                |
-                       +--------+--------+
-                       |        |        |
-                      KTX*   Spine*    Tiled
+                               Other
+                                 |
+                    +--------+---+----+---------+
+                    |        |        |         |
+                   KTX*   Spine*    Tiled    AssImp*
 
 
                              Physics
