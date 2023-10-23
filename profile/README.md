@@ -131,6 +131,10 @@ The way I have written the bindings to SDL2 should make the transition to SDL3 p
 
 Ryan also rewrote the SDL_Net library for SDL3 as he wasn't happy with it.
 
+##### ShAda
+
+I thought about this about 10 years ago and now with SDL3 it kind of makes sense to do it. A platform independent Ada based shader language which compiles to SDL3's shader bitcode.
+
 #### Demos
 
 There should be demonstration programs / games which show how to actually use the various libraries published here.
