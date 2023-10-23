@@ -39,16 +39,16 @@ You imagine the set of libs as being like this:
 
                              Physics
                                 |
-                      +---------+---------+
-                      |         |         |
-                   Chipmunk*  Box2D    Bullet
+                      +---------+-------+
+                      |         |       |
+                  Chipmunk*   Box2D   Bullet
 
 
-               Networking    Platform Integration
-                   |                    |
-                   +               +----+----+
-                   |               |         |
-                   ?          Steamworks*    ?
+                 Networking                     Platform Integration
+                     |                                   |
+            +--------+-------+                      +----+----+
+            |                |                      |         |
+         SDL_Net*   GameNetworkingSockets*     Steamworks*    ?
 
 
                 GUI                                          Audio
