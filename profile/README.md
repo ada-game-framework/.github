@@ -130,3 +130,7 @@ I chose to do this one first as there is a C API which can be bound a bit more e
 The way I have written the bindings to SDL2 should make the transition to SDL3 pretty easy as a lot of the changes in SDL3 are changes to names to make them more consistent and readable, which I already did in the bindings.
 
 Ryan also rewrote the SDL_Net library for SDL3 as he wasn't happy with it.
+
+#### Demos
+
+There should be demonstration programs / games which show how to actually use the various libraries published here.
