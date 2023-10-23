@@ -107,6 +107,7 @@ I chose to do this one first as there is a C API which can be bound a bit more e
 ### Tiled
 
 * Fabien Chouteau from AdaCore has a [Tiled](https://github.com/Fabien-Chouteau/tiled-code-gen) lib which I haven't checked out yet. I'm not sure if this is going to be everything required for a Tiled runtime.
+* His binding uses XMLAda which is way too heavy for games, so I think we can cross this off.
 
 ### Networking
 
