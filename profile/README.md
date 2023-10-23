@@ -25,7 +25,9 @@ Note: Still working this stuff out.
 
 The plan is to provide a set of Ada libraries which will enable someone or a company to create a game and/or game engine based on top of said libraries, these could be bindings or ports.
 
-You imagine the set of libs as being like this:
+There will be overlap between projects as there are for any programming language and you can choose whichever you want to use.
+
+You can imagine the set of libs as follows:
 
 ```bash
                              Your game
