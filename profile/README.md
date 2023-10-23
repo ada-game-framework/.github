@@ -27,9 +27,13 @@ Note: Still working this stuff out.
 >
 > https://nitter.net/notfonk/status/398091658937389056
 
+This "reputation" was spread by people who hated the language before even seeing the final specification for it.
+
 > I read the ada spec a decade ago,and I was very impressed — it was the butt of jokes about design by government committee, but it looked pretty good to me...
 >
 > https://nitter.net/ID_AA_Carmack/status/1094603510304395265#m
+
+FYI, it was *never* designed by committee.
 
 > It is interesting how hearing about Ada in the old days it was easy to jump to a mocking “Big government programming language! Ha!” position, but looked at later, most of the decisions look pretty sound.
 >
