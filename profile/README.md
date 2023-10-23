@@ -159,3 +159,6 @@ I thought about this about 10 years ago and now with SDL3 it kind of makes sense
 
 There should be demonstration programs / games which show how to actually use the various libraries published here.
 
+## Sponsors
+
+Your company logo / profile here.
