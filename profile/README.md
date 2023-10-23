@@ -71,9 +71,9 @@ You imagine the set of libs as being like this:
 
 ```
 
-All the above labelled with an asterisk (*) are my own projects, once I get moved, I will set up [Github sponsors](https://github.com/sponsors/Lucretia) on my profile so if anyone would like to sponsor the work, they can.
+\* My own projects, once I get moved, I will set up [Github sponsors](https://github.com/sponsors/Lucretia) on my profile so if anyone would like to sponsor the work, they can.
 
-All projects marked with a plus (+) need to be patched to work on SDLAda.
+\+ Projects which need to be patched to work with SDLAda.
 
 ### Maths
 
