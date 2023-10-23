@@ -119,3 +119,11 @@ I chose to do this one first as there is a C API which can be bound a bit more e
 * WinRT (UWP)
   * Alex Gamper has a [runtime](https://github.com/Alex-Gamper/Ada-WinRT-Runtime/) and an [API](https://github.com/Alex-Gamper/Ada-WinRT). The latter is LGPLv3, which should be fine on Windows Store as that is the only place this library would be use.
     * There are no Alire crates for them yet.
+
+### Future Plans
+
+#### SDL3
+
+The way I have written the bindings to SDL2 should make the transition to SDL3 pretty easy as a lot of the changes in SDL3 are changes to names to make them more consistent and readable, which I already did in the bindings.
+
+Ryan also rewrote the SDL_Net library for SDL3 as he wasn't happy with it.
