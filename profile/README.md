@@ -47,6 +47,10 @@ Re: Doom in Ada…
 
 ## NVIDIA
 
+>  “What if we just stopped using C?”
+>
+> [NVIDIA: Adoption of SPARK Ushers in a New Era in Security-Critical Software Development](https://www.adacore.com/papers/nvidia-adoption-of-spark-new-era-in-security-critical-software-development)
+
 NVIDIA have been developing their new Ada Lovelace GPU firmware with the Ada / Spark languages.
 
 ## The Plan
