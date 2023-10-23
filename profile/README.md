@@ -58,11 +58,11 @@ You imagine the set of libs as being like this:
    cimGUI+    Nuklear*   Ultralight*  NoesisGUI*     FMOD*   Wwise*   OpenAL
 
 
-                                Graphics
-                                   |
-                  +----------+-----+----+---------+
-                  |          |          |         |
-                OpenGL*   Vulkan*     Metal*    DX3D*
+                          Graphics                       Video
+                             |                             |
+            +----------+-----+----+---------+          +---+
+            |          |          |         |          |
+          OpenGL*   Vulkan*     Metal*    DX3D*     libavif*
 
 
                                Maths*
