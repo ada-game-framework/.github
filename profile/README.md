@@ -11,7 +11,7 @@
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
-# Ada Game Development (an organisation)
+# Ada Game Framework (an organisation)
 
 I've set up this organisation to allow others to more easily work on SDLAda and to organise other game development specific libs for Ada in one place.
 
