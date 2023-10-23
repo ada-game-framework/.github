@@ -41,6 +41,10 @@ Re: Doom in Ada…
 >
 > https://nitter.net/ID_AA_Carmack/status/1202983386559610880#m
 
+## NVIDIA
+
+NVIDIA have been developing their new Ada Lovelace GPU firmware with the Ada / Spark languages.
+
 ## The Plan
 
 The plan is to provide a set of Ada libraries which will enable someone or a company to create a game and/or game engine based on top of said libraries, these could be bindings or ports.
