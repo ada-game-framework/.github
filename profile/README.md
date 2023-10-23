@@ -21,6 +21,26 @@ We still need legal clarification of using the GNAT RTS (GPLv3 with linking exce
 
 Note: Still working this stuff out.
 
+## John Carmack
+
+> I actually have thought about Ada; there is a lot of good there, but it has an undeservedly terrible reputation.
+>
+> https://nitter.net/notfonk/status/398091658937389056
+
+> I read the ada spec a decade ago,and I was very impressed — it was the butt of jokes about design by government committee, but it looked pretty good to me...
+>
+> https://nitter.net/ID_AA_Carmack/status/1094603510304395265#m
+
+> It is interesting how hearing about Ada in the old days it was easy to jump to a mocking “Big government programming language! Ha!” position, but looked at later, most of the decisions look pretty sound.
+>
+> https://nitter.net/ID_AA_Carmack/status/1314729151040020480#m
+
+Re: Doom in Ada…
+
+> ADA would be just fine. COBOL wouldn’t be pleasant.
+>
+> https://nitter.net/ID_AA_Carmack/status/1202983386559610880#m
+
 ## The Plan
 
 The plan is to provide a set of Ada libraries which will enable someone or a company to create a game and/or game engine based on top of said libraries, these could be bindings or ports.
@@ -138,3 +158,4 @@ I thought about this about 10 years ago and now with SDL3 it kind of makes sense
 #### Demos
 
 There should be demonstration programs / games which show how to actually use the various libraries published here.
+
