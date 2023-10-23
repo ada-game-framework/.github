@@ -103,7 +103,7 @@ You can imagine the set of libs as follows:
 
 \* My own projects, once I get moved, I will set up [Github sponsors](https://github.com/sponsors/Lucretia) on my profile so if anyone would like to sponsor the work, they can.
 
-\+ Projects which need to be patched to work with SDLAda.
+\+ Projects which (might) need to be patched to work with SDLAda.
 
 ### Maths
 
