@@ -113,11 +113,14 @@ You can imagine the set of libs as follows:
          SDL_Net*   GameNetworkingSockets*     Steamworks*    ?
 
 
-                GUI                                          Audio
-                 |                                             |
-      +----------+------------+-----------+            +-------+--------+
-      |          |            |           |            |       |        |
-   cimGUI+    Nuklear*   Ultralight*  NoesisGUI*     FMOD*   Wwise*   OpenAL
+                          GUI
+             +-------------+----------+
+             |                        |
+         Immediate                 In Game                     Audio
+             |                        |                          |
+       +-----+-----+            +-----+-----+            +-------+--------+
+       |           |            |           |            |       |        |
+    cimGUI+     Nuklear*   Ultralight*  NoesisGUI*     FMOD*   Wwise*   OpenAL
 
 
                           Graphics                       Video
