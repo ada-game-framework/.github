@@ -139,7 +139,7 @@ You can imagine the set of libs as follows:
 
 ### Maths
 
-I have an old library I wrote about 20 years ago after coming out of the games industry, it was developed for OpenGL, but I am going to reuse/rewrite it to create a fast/optimised library to base everything on.
+I have an [old library](https://github.com/Lucretia/old_nehe_ada95/tree/master/utils) I wrote about 20 years ago after coming out of the games industry, it was developed for OpenGL, but I am going to reuse/rewrite it to create a fast/optimised library to base everything on.
 
 I intend for this to use SIMD machine instructions where appropriate.
 
