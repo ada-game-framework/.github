@@ -21,7 +21,7 @@
     - [NVIDIA](#nvidia)
   - [The Plan](#the-plan)
     - [Maths](#maths)
-      - [OpenGL](#opengl)
+    - [OpenGL](#opengl)
     - [ImgGUI](#imggui)
     - [Afmod](#afmod)
     - [Box2d / Bullet](#box2d--bullet)
@@ -31,7 +31,7 @@
     - [Platforms yet to work or be tested](#platforms-yet-to-work-or-be-tested)
   - [Future Plans](#future-plans)
     - [SDL3](#sdl3)
-      - [ShAda](#shada)
+    - [ShAda](#shada)
     - [Demos](#demos)
   - [Sponsors](#sponsors)
 
@@ -143,7 +143,7 @@ I have an old library I wrote about 20 years ago after coming out of the games i
 
 I intend for this to use SIMD machine instructions where appropriate.
 
-#### OpenGL
+### OpenGL
 
 Back around the time I was developing the [NeHe](https://github.com/Lucretia/old_nehe_ada95) ports, I was developing a binding generator for OpenGL, this was never completed.
 
@@ -191,7 +191,7 @@ The way I have written the bindings to SDL2 should make the transition to SDL3 p
 
 Ryan also rewrote the SDL_Net library for SDL3 as he wasn't happy with it.
 
-#### ShAda
+### ShAda
 
 I thought about this about 10 years ago and now with SDL3 it kind of makes sense to do it. A platform independent Ada based shader language which compiles to SDL3's shader bitcode.
 
