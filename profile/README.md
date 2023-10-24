@@ -13,6 +13,17 @@
 
 # Ada Game Framework (an organisation)
 
+* [App stores and the GPL](#App-stores-and-the-GPL)
+* [Positive Quotes](#Positive-Quotes)
+  1. [John Carmack](#John-Carmack)
+  2. [NVIDIA](#NVIDIA)
+* [The Plan](#The-Plan)
+* [Future Plans](#Future-Plans)
+  1. [SDL3](#SDL3)
+  2. [ShAda](#ShAda)
+  3. [Demos](#Demos)
+* [Sponsors](#Sponsors)
+
 Note: Still working this stuff out.
 
 I started SDLAda a fews after I left the games industry for good knowing that Ada was a better language for developing games. With SDLAda I think I've proven how a highly portable library and a highly portable type safe language could work together to make game development faster and easier.
