@@ -13,22 +13,37 @@
 
 # Ada Game Framework
 
-* [App stores and the GPL](#App-stores-and-the-GPL)
-* [Positive Quotes](#Positive-Quotes)
-  1. [John Carmack](#John-Carmack)
-  2. [NVIDIA](#NVIDIA)
-* [The Plan](#The-Plan)
-* [Future Plans](#Future-Plans)
-  1. [SDL3](#SDL3)
-  2. [ShAda](#ShAda)
-  3. [Demos](#Demos)
-* [Sponsors](#Sponsors)
+- [Ada Game Framework](#ada-game-framework)
+  - [Introduction](#introduction)
+  - [App stores and the GPL](#app-stores-and-the-gpl)
+  - [Positive Quotes](#positive-quotes)
+    - [John Carmack](#john-carmack)
+    - [NVIDIA](#nvidia)
+  - [The Plan](#the-plan)
+    - [Maths](#maths)
+      - [OpenGL](#opengl)
+    - [ImgGUI](#imggui)
+    - [Afmod](#afmod)
+    - [Box2d / Bullet](#box2d--bullet)
+    - [OpenAL](#openal)
+    - [Tiled](#tiled)
+    - [Networking](#networking)
+    - [Platforms yet to work or be tested](#platforms-yet-to-work-or-be-tested)
+  - [Future Plans](#future-plans)
+    - [SDL3](#sdl3)
+      - [ShAda](#shada)
+    - [Demos](#demos)
+  - [Sponsors](#sponsors)
 
-Note: Still working this stuff out.
+## Introduction
 
-I started SDLAda a fews after I left the games industry for good knowing that Ada was a better language for developing games. With SDLAda I think I've proven how a highly portable library and a highly portable type safe language could work together to make game development faster and easier.
+I started SDLAda a few years after I left the games industry for good knowing that Ada was a better language for developing games. After years of dealing with slow C++ compiles and constant issues with C and C++, usually when dealing with other people's work, Ada seemed like the better way forward, even though I don't want to work in the games industry any more.
 
-The aim is to be able to download the bits you need to create a portable game easily using Alire to add in the dependencies and handle building, testing and eventually (hopefully) packaging.
+Ada was designed to for developing correct, readable programs. It was designed for many areas but one in particular, embedded applications, i.e. fighter jet simulators, controlling planes, ships, trains, heart monitors. Games is just another embedded area, especially when you're dealing with consoles with little to no OS, 🙋‍♀️ PS2.
+
+With SDLAda I think I've proven how a highly portable library and a highly portable type safe language could work together to make game development faster and easier.
+
+The aim is to be able to download the bits you need to create a portable game easily, initially using [Alire](https://ada-lang.io), to add in the dependencies and handle building, testing and eventually (hopefully) packaging.
 
 ## App stores and the GPL
 
@@ -42,25 +57,27 @@ We still need legal clarification of using the GNAT RTS (GPLv3 with linking exce
 
 ## Positive Quotes
 
+You'll see a lot of negativity around Ada, so I thought adding some positivity from industry giants would help people get on board with this.
+
 ### John Carmack
 
 > I actually have thought about Ada; there is a lot of good there, but it has an undeservedly terrible reputation.
 >
 > https://nitter.net/notfonk/status/398091658937389056
 
-This "reputation" was spread by people who hated the language before even seeing the final specification for it.
+This "reputation" was spread by people who hated the language before even seeing the final specification for it. This was confirmed to me by someone who worked as a programmer in the DoD back when the language was being defined.
 
 > I read the ada spec a decade ago,and I was very impressed — it was the butt of jokes about design by government committee, but it looked pretty good to me...
 >
 > https://nitter.net/ID_AA_Carmack/status/1094603510304395265#m
 
-FYI, it was *never* designed by committee.
+FYI, it was *never* [designed](https://apps.dtic.mil/sti/trecms/pdf/ADB950587.pdf) (warning big PDF) by committee.
 
 > It is interesting how hearing about Ada in the old days it was easy to jump to a mocking “Big government programming language! Ha!” position, but looked at later, most of the decisions look pretty sound.
 >
 > https://nitter.net/ID_AA_Carmack/status/1314729151040020480#m
 
-Re: Doom in Ada…
+Re: [Doom](https://github.com/AdaDoom3/AdaDoom3) in Ada…
 
 > ADA would be just fine. COBOL wouldn’t be pleasant.
 >
