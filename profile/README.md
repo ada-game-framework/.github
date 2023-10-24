@@ -1,4 +1,4 @@
-## Hi there 👋
+<!-- ## Hi there 👋 -->
 
 <!--
 
@@ -13,15 +13,25 @@
 
 # Ada Game Framework (an organisation)
 
-I've set up this organisation to allow others to more easily work on SDLAda and to organise other game development specific libs for Ada in one place.
+Note: Still working this stuff out.
 
-Only non-GPL'd projects will be found here (LGPL maybe a possibility), the GPL causes issues in some places where I'd like to see these libraries used, App Stores, and therefore I won't allow them here. This does not mean that some of these libs won't bind to commercial libraries, they will, but these libraries will be useable on platforms with their commercial licences.
+I started SDLAda a fews after I left the games industry for good knowing that Ada was a better language for developing games. With SDLAda I think I've proven how a highly portable library and a highly portable type safe language could work together to make game development faster and easier.
+
+The aim is to be able to download the bits you need to create a portable game easily using Alire to add in the dependencies and handle building, testing and eventually (hopefully) packaging.
+
+## App stores and the GPL
+
+Only non-GPL'd projects will be found here (LGPL maybe, possibly). The GPL causes issues in these places where I'd like to see these libraries used and therefore I won't allow any GPL'd library, especially GPL'd bindings, here. Only projects with permissive licences will be allowed here.
+
+There will be bindings to commercial libraries, but these libraries will be useable on platforms with their specific commercial licences, trying to restrict their use by enforcing a binding with a more restrictive licence doesn't make sense.
+
+Remember SDL2 was originally licensed under the GPL which changed back to ZLib when Valve got involved because they could see the issues.
 
 We still need legal clarification of using the GNAT RTS (GPLv3 with linking exception) in these places. The GPL's IR clause is still an issue.
 
-Note: Still working this stuff out.
+## Positive Quotes
 
-## John Carmack
+### John Carmack
 
 > I actually have thought about Ada; there is a lot of good there, but it has an undeservedly terrible reputation.
 >
@@ -45,7 +55,7 @@ Re: Doom in Ada…
 >
 > https://nitter.net/ID_AA_Carmack/status/1202983386559610880#m
 
-## NVIDIA
+### NVIDIA
 
 >  “What if we just stopped using C?”
 >
@@ -155,19 +165,19 @@ I chose to do this one first as there is a C API which can be bound a bit more e
   * Alex Gamper has a [runtime](https://github.com/Alex-Gamper/Ada-WinRT-Runtime/) and an [API](https://github.com/Alex-Gamper/Ada-WinRT). The latter is LGPLv3, which should be fine on Windows Store as that is the only place this library would be use.
     * There are no Alire crates for them yet.
 
-### Future Plans
+## Future Plans
 
-#### SDL3
+### SDL3
 
 The way I have written the bindings to SDL2 should make the transition to SDL3 pretty easy as a lot of the changes in SDL3 are changes to names to make them more consistent and readable, which I already did in the bindings.
 
 Ryan also rewrote the SDL_Net library for SDL3 as he wasn't happy with it.
 
-##### ShAda
+#### ShAda
 
 I thought about this about 10 years ago and now with SDL3 it kind of makes sense to do it. A platform independent Ada based shader language which compiles to SDL3's shader bitcode.
 
-#### Demos
+### Demos
 
 There should be demonstration programs / games which show how to actually use the various libraries published here.
 
