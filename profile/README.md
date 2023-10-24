@@ -61,33 +61,23 @@ You'll see a lot of negativity around Ada, so I thought adding some positivity f
 
 ### John Carmack
 
-> I actually have thought about Ada; there is a lot of good there, but it has an undeservedly terrible reputation.
->
-> https://nitter.net/notfonk/status/398091658937389056
+> [I actually have thought about Ada; there is a lot of good there, but it has an undeservedly terrible reputation.](https://nitter.net/notfonk/status/398091658937389056)
 
 This "reputation" was spread by people who hated the language before even seeing the final specification for it. This was confirmed to me by someone who worked as a programmer in the DoD back when the language was being defined.
 
-> I read the ada spec a decade ago,and I was very impressed — it was the butt of jokes about design by government committee, but it looked pretty good to me...
->
-> https://nitter.net/ID_AA_Carmack/status/1094603510304395265#m
+> [I read the ada spec a decade ago,and I was very impressed — it was the butt of jokes about design by government committee, but it looked pretty good to me...](https://nitter.net/ID_AA_Carmack/status/1094603510304395265#m)
 
 FYI, it was *never* [designed](https://apps.dtic.mil/sti/trecms/pdf/ADB950587.pdf) (warning big PDF) by committee.
 
-> It is interesting how hearing about Ada in the old days it was easy to jump to a mocking “Big government programming language! Ha!” position, but looked at later, most of the decisions look pretty sound.
->
-> https://nitter.net/ID_AA_Carmack/status/1314729151040020480#m
+> [It is interesting how hearing about Ada in the old days it was easy to jump to a mocking “Big government programming language! Ha!” position, but looked at later, most of the decisions look pretty sound.](https://nitter.net/ID_AA_Carmack/status/1314729151040020480#m)
 
 Re: [Doom](https://github.com/AdaDoom3/AdaDoom3) in Ada…
 
-> ADA would be just fine. COBOL wouldn’t be pleasant.
->
-> https://nitter.net/ID_AA_Carmack/status/1202983386559610880#m
+> [ADA would be just fine. COBOL wouldn’t be pleasant.](https://nitter.net/ID_AA_Carmack/status/1202983386559610880#m)
 
 ### NVIDIA
 
->  “What if we just stopped using C?”
->
-> [NVIDIA: Adoption of SPARK Ushers in a New Era in Security-Critical Software Development](https://www.adacore.com/papers/nvidia-adoption-of-spark-new-era-in-security-critical-software-development)
+>  [“What if we just stopped using C?”](https://www.adacore.com/papers/nvidia-adoption-of-spark-new-era-in-security-critical-software-development)
 
 NVIDIA have been developing their new Ada Lovelace GPU firmware with the Ada / Spark languages.
 
