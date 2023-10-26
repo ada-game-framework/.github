@@ -79,8 +79,6 @@ Re: [Doom](https://github.com/AdaDoom3/AdaDoom3) in Ada…
 
 >  [“What if we just stopped using C?”](https://www.adacore.com/papers/nvidia-adoption-of-spark-new-era-in-security-critical-software-development)
 
-NVIDIA have been developing their new Ada Lovelace GPU firmware with the Ada / Spark languages.
-
 ## The Plan
 
 The plan is to provide a set of Ada libraries which will enable someone or a company to create a game and/or game engine based on top of said libraries, these could be bindings or ports.
